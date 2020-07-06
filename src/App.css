@@ -234,7 +234,6 @@
 .skill3{
   display: table;
   height: 250px;
-  border: solid black 2px;
   position: relative;
   top: 10px;
   left: 250px;
@@ -268,10 +267,32 @@
   left: 190px;
 }
 
-.project{
+.project1{
   display: table;
-  border: solid black 2px;
+  
   position: relative;
+  left: 10px;
+}
+
+.project2{
+  display: table;
+  
+  position: relative;
+  left: 20px;
+}
+
+.project3{
+  display: table;
+  
+  position: relative;
+  left: 30px;
+}
+
+.project4{
+  display: table;
+  top: 10px;
+  position: relative;
+  
 }
 
 

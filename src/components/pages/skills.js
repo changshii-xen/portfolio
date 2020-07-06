@@ -1,6 +1,10 @@
 import React, {Fragment} from 'react';
-import BarChart from '../pages/chart/Chart'
-import Logger from '../layout/modals/IT-Logger'
+import BarChart from '../pages/chart/Chart';
+import 'materialize-css/dist/css/materialize.min.css';
+import Logger from '../layout/modals/IT-Logger';
+import Finder from '../layout/modals/Github-Finder'
+import Keeper from '../layout/modals/ContactKeep'
+
 
 const skills = () => {
     return (
@@ -106,19 +110,29 @@ const skills = () => {
                             <img src="https://img.icons8.com/color/50/000000/linkedin.png" alt="LinkedIn"/>
                             </div>
                         </div>
+                        <div className="project4">
                         <p style= {{ color : '#f9e6f0'}}>
                         <h5>
                         Check out some of my Work below
                         </h5>
                         </p>
                         <div className="row">
-                            <div className="project">
-                                <Fragment>
-                                    <Logger />
-                                </Fragment>
+                            <div className="project1">
+                            <Fragment>
+                                <Logger />
+                            </Fragment>
                             </div>
-                            <div className="project">Okay</div>
-                            <div className="project">Okay</div>
+                            <div className="project2">
+                            <Fragment>
+                                <Finder />
+                            </Fragment>
+                            </div>
+                            <div className="project3">
+                            <Fragment>
+                                <Keeper />
+                            </Fragment>
+                            </div>
+                        </div>
                         </div>
                 </div>
                 </div>

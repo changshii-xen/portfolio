@@ -1,0 +1,278 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.okay{
+  vertical-align:middle;
+  text-align: right;
+  position: relative;
+  top: 10px;
+  left: 370px;
+  
+}
+
+.background {
+  background-image: url('./components/pages/images/main.jpg');
+} 
+
+.container{
+  background-image: url(./components/pages/images/back.jpg);
+  position: relative;
+  display: table;
+  height: 600px;
+  width: 1265px;
+}
+.container2{
+  background-image: url(./components/pages/images/back.jpg);
+  position: relative;
+  display: table;
+  height: 1000px;
+  width: 1265px;
+}
+
+.container3{
+  background-image: url(./components/pages/images/back.jpg);
+  position: relative;
+  display: table;
+  height: 550px;
+  width: 1265px;
+}
+
+.container4{
+  background-image: url(./components/pages/images/back.jpg);
+  position: relative;
+  display: table;
+  height: 500px;
+  width: 1265px;
+}
+
+.container5{
+  background-image: url(./components/pages/images/back.jpg);
+  position: relative;
+  display: table;
+  height: 1000px;
+  width: 1265px;
+}
+.form{
+  display: table;
+  height: 250px;
+  border: solid black 2px;
+  position: relative;
+  top: 15px;
+  left: 170px;
+}
+
+.text{
+  text-emphasis-color: azure;
+}
+
+
+.row{
+  display:flex; 
+  
+}
+.element {
+  position: relative;
+  top: 90px;
+  left: 150px;
+  border: solid black 2px;
+  height: 350px;
+}
+
+.element1 {
+  position: relative;
+  top: 90px;
+  left: 30px;
+  
+  height: 350px;
+  width: 380px;
+}
+.element2 {
+  position: relative;
+  top: 200px;
+  left: 60px;
+  
+  height: 350px;
+  width: 380px;
+}
+.element3 {
+  position: relative;
+  top: 50px;
+  left: 100px;
+  height: 350px;
+  width: 380px;
+}
+
+.icon {
+  position: relative;
+  left: 50px;
+  
+}
+.icon2 {
+  position: relative;
+  left: 115px;
+  
+}
+.icon3 {
+  position: relative;
+  left: 170px;
+  
+}
+.icon4 {
+  position: relative;
+  left: 20px;
+  
+}
+.icon5 {
+  position: relative;
+  left: 80px;
+  
+}
+.icon6 {
+  position: relative;
+  left: 130px;
+  
+}
+.icon7 {
+  position: relative;
+  left: 190px;
+  
+}
+
+.element2 {
+  position: relative;
+  top: 90px;
+  right: 30;
+}
+
+.headers {
+  position: relative;
+  left: 170px;
+}
+
+.label{
+  text-decoration-color: cornsilk;
+  text-size-adjust: 800px;
+  content: "Organization"; 
+  font-size: 43px;
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.skill{
+  display: table;
+  height: 250px;
+  position: relative;
+  top: 10px;
+  left: 100px;
+  height: 350px;
+  width: 450px;
+}
+.skill2{
+  display: table;
+  height: 250px;
+  position: relative;
+  top: 10px;
+  left: 10px;
+  height: 350px;
+  width: 450px;
+}
+
+/* .skill2{
+  display: table;
+  height: 250px;
+  position: relative;
+  top: 40px;
+  left: 120px;
+  height: 350px;
+  width: 1000px;
+} */
+.skill3{
+  display: table;
+  height: 250px;
+  border: solid black 2px;
+  position: relative;
+  top: 10px;
+  left: 250px;
+  height: 350px;
+  width: 450px;
+}
+.skill4{
+  display: table;
+  height: 250px;
+  border: solid black 2px;
+  position: relative;
+  top: 40px;
+  left: 250px;
+  height: 350px;
+  width: 450px;
+}
+
+.account{
+  display: table;
+  position: relative;
+  left: 110px;
+}
+.account2{
+  display: table;
+  position: relative;
+  left: 150px;
+}
+.account3{
+  display: table;
+  position: relative;
+  left: 190px;
+}
+
+.project{
+  display: table;
+  border: solid black 2px;
+  position: relative;
+}
+
+
+

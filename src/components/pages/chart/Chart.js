@@ -19,12 +19,12 @@ function BarGroup(props) {
   class BarChart extends React.Component {
     state = {
       data: [
-        { name: 'Python...nnnn', value: 80 },
-        { name: 'mySQL..............', value: 85 },
+        { name: 'Python...nnnn', value: 85 },
+        { name: 'mySQL..............', value: 87 },
         { name: 'Javascript....................', value: 80 },
         { name: 'CSS......', value: 90 },
         { name: 'HTML...........', value: 95 },
-        { name: 'React..........', value: 70 },
+        { name: 'React..........', value: 80 },
         { name: 'Bootstap..................', value: 85 }
       ]
     }

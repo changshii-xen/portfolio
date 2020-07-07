@@ -1,6 +1,8 @@
 import React, {useEffect} from 'react';
 import 'materialize-css/dist/css/materialize.min.css';
 import M from 'materialize-css/dist/js/materialize.min.js';
+import logger1 from './pictures/k.PNG'
+import logger2 from './pictures/k5.PNG'
 
 const Logger = () => {
     useEffect(() => {
@@ -8,20 +10,20 @@ const Logger = () => {
         M.AutoInit();
       });
       return (
-          <div>          
-                <a class="waves-effect waves-light btn modal-trigger" href="#modal1">IT Logger</a>
+    <div>          
+        <a class="waves-effect waves-light btn modal-trigger" href="#modal3">IT Logger</a>
+        <div id="modal3" class="modal">
+          <div class="modal-content">
+          <h4>IT Logger sample pictures</h4>
+          <img src={logger1} alt="IT logger"/> <br/>
+          <img src={logger2} alt="Github Finder"/>
 
-  
-                <div id="modal1" class="modal">
-                  <div class="modal-content">
-                  <h4>Modal Header</h4>
-                  <p>A bunch of text</p>
-                  </div>
-                  <div class="modal-footer">
-                    <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
-                  </div>
-                </div>
           </div>
+          <div class="modal-footer">
+            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+          </div>
+        </div>
+  </div>
       )
 }
 

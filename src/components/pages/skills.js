@@ -101,13 +101,19 @@ const skills = () => {
                     </p>
                         <div className="row">
                             <div className="account">
+                            <a href="https://github.com/changshii-xen">
                             <img src="https://img.icons8.com/fluent/50/000000/github.png" alt="github"/>
+                            </a>
                             </div>
                             <div className="account2">
+                            <a href="https://codepen.io/changshii-xen">
                             <img src="https://img.icons8.com/ios-filled/50/000000/codepen.png" alt="CodePen"/>
+                            </a>
                             </div>
                             <div className="account3">
+                            <a href="www.linkedin.com/in/siyamthanda-mgoqi-b090121a2">
                             <img src="https://img.icons8.com/color/50/000000/linkedin.png" alt="LinkedIn"/>
+                            </a>
                             </div>
                         </div>
                         <div className="project4">

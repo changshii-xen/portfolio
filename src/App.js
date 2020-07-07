@@ -8,8 +8,6 @@ import Skills from './components/pages/skills'
 import Footer from './components/layout/Footer';
 
 
-
-
 import './App.css'
 import About from './components/pages/About';
 import MyForm from './components/pages/myform';
@@ -26,11 +24,8 @@ const App =() => {
     <Fragment>
       <Navbar />
       <Home />
-      <br/>
       <About />
-      <br/>
       <Skills />
-      <br/>
       <MyForm />
       <Footer />
     </Fragment>

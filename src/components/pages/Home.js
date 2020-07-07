@@ -19,7 +19,7 @@ const Home = () => {
                     <h1><i>Welcome</i></h1> <br/>
                     <br/>  
                     <h4>
-                        I am Siyamthanda Mgoqi <br/> Please free to look through <br />
+                        I am Siyamthanda Mgoqi <br/> Please feel free to look through <br />
                         My Portfolio
                     </h4>
                     <h6>

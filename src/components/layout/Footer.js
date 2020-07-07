@@ -24,7 +24,8 @@ const Footer = () => {
                       </h6>
                     <h5>
                     <i>( friend/ collegue)</i>
-                    </h5> 
+                    </h5>
+                    <h6>Asaphfranksboi@gmail.com</h6> 
                     </p>
                 </div>
                 <div className="test2">
@@ -40,6 +41,9 @@ const Footer = () => {
                     <h5>
                     <i>(lecturer)</i>
                     </h5>
+                    <h6>-thapelo.tsotetsi504@gmail.com
+                        thapelo@lifechoices.co.za</h6>
+                     
                     </p>
                 </div>
                 <div className="test3">
@@ -53,7 +57,8 @@ const Footer = () => {
                     </h6>
                     <h5>
                     <i>( friend/ collegue)</i>
-                    </h5> 
+                    </h5>
+                    <h6>ntsanganinela@gmail.com</h6> 
                     </p>
                 </div>
             </div>

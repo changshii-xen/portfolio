@@ -37,70 +37,66 @@
   }
 }
 
-.okay{
-  vertical-align:middle;
+.okay {
+  vertical-align: middle;
   text-align: right;
   position: relative;
   top: 10px;
   left: 370px;
-  
 }
 
 .background {
   background-image: url('./components/pages/images/main.jpg');
-} 
-
-.container{
-  background-image: url(./components/pages/images/back.jpg);
-  position: relative;
-  display: table;
-  height: 600px;
-  width: 1265px;
 }
-.container2{
+
+.container {
   background-image: url(./components/pages/images/back.jpg);
-  position: relative;
-  display: table;
+
+  height: 600px;
+  width: 100%;
+}
+.container2 {
+  background-image: url(./components/pages/images/back.jpg);
+
   border-top: solid azure 10px;
   height: 750px;
-  width: 1265px;
+  width: 100%;
 }
 
-.container3{
+.container3 {
   background-image: url(./components/pages/images/back.jpg);
-  position: relative;
-  display: table;
+
   height: 550px;
-  width: 1265px;
+  width: 100%;
 }
 
-.container4{
+.container4 {
   background-image: url(./components/pages/images/back.jpg);
-  position: relative;
+
   border-top: solid azure 10px;
-  display: table;
+
   height: 500px;
-  width: 1265px;
+  width: 100%;
 }
 
-.container5{
+.container5 {
   background-image: url(./components/pages/images/back.jpg);
-  position: relative;
+
   border-top: solid azure 10px;
-  display: table;
+
   height: 1000px;
-  width: 1265px;
+  width: 100%;
 }
 
-.container6{
+.container6 {
   background-image: url(./components/layout/modals/pictures/footer.jpg);
-  position: relative;
+
   border-top: solid azure 10px;
-  display: table;
+
   height: 350px;
-  width: 1265px;
+  width: 100%;
 }
-.form{
+.form {
   display: table;
   height: 250px;
   border: solid black 2px;
@@ -109,14 +105,12 @@
   left: 170px;
 }
 
-.text{
+.text {
   text-emphasis-color: azure;
 }
 
-
-.row{
-  display:flex; 
-  
+.row {
+  display: flex;
 }
 .element {
   position: relative;
@@ -181,37 +175,30 @@
 .icon {
   position: relative;
   left: 50px;
-  
 }
 .icon2 {
   position: relative;
   left: 115px;
-  
 }
 .icon3 {
   position: relative;
   left: 170px;
-  
 }
 .icon4 {
   position: relative;
   left: 20px;
-  
 }
 .icon5 {
   position: relative;
   left: 80px;
-  
 }
 .icon6 {
   position: relative;
   left: 130px;
-  
 }
 .icon7 {
   position: relative;
   left: 190px;
-  
 }
 
 .element2 {
@@ -230,15 +217,15 @@
   left: 170px;
 }
 
-.label{
+.label {
   text-decoration-color: cornsilk;
   text-size-adjust: 800px;
-  content: "Organization"; 
+  content: "Organization";
   font-size: 43px;
 }
 
 .button {
-  background-color: #4CAF50; /* Green */
+  background-color: #4caf50; /* Green */
   border: none;
   color: white;
   padding: 15px 32px;
@@ -248,7 +235,7 @@
   font-size: 16px;
 }
 
-.skill{
+.skill {
   display: table;
   height: 250px;
   position: relative;
@@ -257,7 +244,7 @@
   height: 350px;
   width: 450px;
 }
-.skill2{
+.skill2 {
   display: table;
   height: 250px;
   position: relative;
@@ -276,7 +263,7 @@
   height: 350px;
   width: 1000px;
 } */
-.skill3{
+.skill3 {
   display: table;
   height: 250px;
   position: relative;
@@ -285,7 +272,7 @@
   height: 350px;
   width: 450px;
 }
-.skill4{
+.skill4 {
   display: table;
   height: 250px;
   border: solid black 2px;
@@ -296,49 +283,45 @@
   width: 450px;
 }
 
-.account{
+.account {
   display: table;
   position: relative;
   left: 110px;
 }
-.account2{
+.account2 {
   display: table;
   position: relative;
   left: 150px;
 }
-.account3{
+.account3 {
   display: table;
   position: relative;
   left: 190px;
 }
 
-.project1{
+.project1 {
   display: table;
-  
+
   position: relative;
   left: 10px;
 }
 
-.project2{
+.project2 {
   display: table;
-  
+
   position: relative;
   left: 20px;
 }
 
-.project3{
+.project3 {
   display: table;
-  
+
   position: relative;
   left: 30px;
 }
 
-.project4{
+.project4 {
   display: table;
   top: 10px;
   position: relative;
-  
 }
-
-
-

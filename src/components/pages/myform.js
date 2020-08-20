@@ -1,42 +1,43 @@
 import React from "react";
-import '../../App.css';
+import "../../App.css";
 
 export default class MyForm extends React.Component {
   constructor(props) {
     super(props);
     this.submitForm = this.submitForm.bind(this);
     this.state = {
-      status: ""
+      status: "",
     };
   }
 
   render() {
     const { status } = this.state;
     return (
-        <div className="container4">
+      <div className="container4">
         <div className="headers">
-            <p style= {{ color : '#f9e6f0'}}>
+          <p style={{ color: "#f9e6f0" }}>
             <h1>
-                <i>Contact Me</i> 
+              <i>Contact Me</i>
             </h1>
-            </p>
+          </p>
         </div>
         <div className="form">
-        <form
-        onSubmit={this.submitForm}
-        action="https://formspree.io/mwkrrljy"
-        method="POST"
-      >
-        <label className="label">Email:</label>
-        <input type="email" name="email" />
-        <label className="label">Message:</label>
-        <input type="text" name="message" />
-        {status === "SUCCESS" ? <p>Thanks!</p> : <button className="button">Submit</button>}
-        {status === "ERROR" && <p>Ooops! There was an error.</p>}
-      </form>
+          <form
+            onSubmit={this.submitForm}
+            action="https://formspree.io/mwkrrljy"
+            method="POST"
+          >
+            <label className="label">Email:</label>
+            <input type="email" name="email" />
+            <label className="label">Message:</label>
+            <input type="text" name="message" />
+            {status === "SUCCESS"
+              ? <p>Thanks!</p>
+              : <button className="button">Submit</button>}
+            {status === "ERROR" && <p>Ooops! There was an error.</p>}
+          </form>
         </div>
-        </div>
-      
+      </div>
     );
   }
 

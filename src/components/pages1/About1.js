@@ -4,7 +4,7 @@ const About1 = () => {
   return (
     <div className="container2">
       <div className="headers">
-        <p style={{ color: "#f9e6f0" }}>
+        <p style={{ color: "teal" }}>
           <h1>
             <i>About Me</i>
           </h1>
@@ -12,7 +12,7 @@ const About1 = () => {
       </div>
       <div className="row">
         <div className="element1">
-          <p style={{ color: "#f9e6f0" }}>
+          <p style={{ color: "teal" }}>
             <h3>
               <i>Overview</i> <br />
             </h3>
@@ -31,7 +31,7 @@ const About1 = () => {
           </p>
         </div>
         <div className="element2">
-          <p style={{ color: "#f9e6f0" }}>
+          <p style={{ color: "teal" }}>
             <h3>
               <i>Interests</i> <br />
             </h3>
@@ -44,7 +44,7 @@ const About1 = () => {
           </p>
         </div>
         <div className="element3">
-          <p style={{ color: "#f9e6f0" }}>
+          <p style={{ color: "teal" }}>
             <h3>
               <i>Education</i> <br />
             </h3>

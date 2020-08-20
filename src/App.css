@@ -48,19 +48,24 @@
 .background {
   background-image: url('./components/pages/images/main.jpg');
 }
+.main {
+  height: 100%;
+  width: 100%;
+}
 
-.container {
+/* .container {
   background-image: url(./components/pages/images/back.jpg);
 
   height: 600px;
-  width: 100%;
-}
+  width: 65%; 
+}  */
 .container2 {
-  background-image: url(./components/pages/images/back.jpg);
+  /* background-image: url(./components/pages/images/back.jpg); */
 
   border-top: solid azure 10px;
   height: 750px;
-  width: 100%;
+  width: 85%;
+  /* About */
 }
 
 .container3 {
@@ -68,6 +73,8 @@
 
   height: 550px;
   width: 100%;
+
+  /* Home */
 }
 
 .container4 {
@@ -76,7 +83,8 @@
   border-top: solid azure 10px;
 
   height: 500px;
-  width: 100%;
+  width: 60%;
+  /* Form */
 }
 
 .container5 {
@@ -85,7 +93,8 @@
   border-top: solid azure 10px;
 
   height: 1000px;
-  width: 100%;
+  width: 60%;
+  /* Skills */
 }
 
 .container6 {
@@ -94,15 +103,17 @@
   border-top: solid azure 10px;
 
   height: 350px;
-  width: 100%;
+  width: 60%;
+  /* Footer */
 }
 .form {
   display: table;
   height: 250px;
+  width: 680px;
   border: solid black 2px;
   position: relative;
   top: 15px;
-  left: 170px;
+  left: 10px;
 }
 
 .text {
@@ -124,7 +135,7 @@
   position: relative;
   top: 90px;
   left: 30px;
-  border-right: solid azure 3px;
+  border-right: solid teal 3px;
   height: 490px;
   width: 380px;
 }
@@ -132,7 +143,7 @@
   position: relative;
   top: 90px;
   left: 60px;
-  border-right: solid azure 3px;
+  border-right: solid teal 3px;
   height: 490px;
   width: 310px;
 }
@@ -140,7 +151,7 @@
   position: relative;
   top: 95px;
   left: 100px;
-  border-right: solid azure 3px;
+  border-right: solid teal 3px;
   height: 490px;
   width: 420px;
 }

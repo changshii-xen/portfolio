@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className="container6">
       <div className="header">
-        <p style={{ color: "#f9e6f0" }}>
+        <p style={{ color: "teal" }}>
           <h3>
             <i>This is what others had to say about me.</i>
           </h3>
@@ -53,7 +53,7 @@ const Footer = () => {
           </p>
         </div>
         <div className="test3">
-          <p style={{ color: "#f9e6f0" }}>
+          <p style={{ color: "teal" }}>
             <h5>
               <i>Yonela Ntsangani</i>
             </h5>

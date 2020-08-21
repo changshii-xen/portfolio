@@ -141,6 +141,15 @@ const skills1 = () => {
                   />
                 </a>
               </div>
+              <div className="account4">
+                <a href="https://the-v1sion.herokuapp.com">
+                  <img
+                    src="https://img.icons8.com/cotton/64/000000/successfully-completed-task--v1.png"
+                    alt="The-Vision"
+                  />
+                  The Vision Project
+                </a>
+              </div>
             </div>
             <div className="project4">
               <p style={{ color: "teal" }}>

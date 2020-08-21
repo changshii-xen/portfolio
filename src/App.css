@@ -297,17 +297,23 @@
 .account {
   display: table;
   position: relative;
-  left: 110px;
+  left: 10px;
 }
 .account2 {
   display: table;
   position: relative;
-  left: 150px;
+  left: 80px;
 }
 .account3 {
   display: table;
   position: relative;
-  left: 190px;
+  left: 170px;
+}
+.account4 {
+  display: table;
+  position: relative;
+  top: 210px;
+  left: 30px;
 }
 
 .project1 {
